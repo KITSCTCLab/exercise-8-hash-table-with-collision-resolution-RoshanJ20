@@ -3,9 +3,9 @@ import re
 def display_hash(hashtable) -> None:
 	for keyvalue in range(len(hashtable)):
 		cont = hashtable[keyvalue]
-		print(keyvalue, end = "")
+		print(keyvalue, end = " ")
 		for element in cont:
-			print(" --> ", element, end = "", sep = "")
+			print("-->", element, end = " ")
 		print()
 
 def Hashing(keyvalue) -> int:
