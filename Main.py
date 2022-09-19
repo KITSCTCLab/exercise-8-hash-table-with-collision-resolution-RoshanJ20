@@ -5,7 +5,7 @@ def display_hash(hashtable) -> None:
 		cont = hashtable[keyvalue]
 		print(keyvalue, end = "")
 		for element in cont:
-			print(" --> '", element,"'", end = "", sep = "")
+			print(" --> ", element, end = "", sep = "")
 		print()
 
 def Hashing(keyvalue) -> int:
